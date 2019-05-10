@@ -1,6 +1,4 @@
-port: 5000
 title: 'Slides'
-css: ''
 cssFiles: [
   './main.css'
 ]
