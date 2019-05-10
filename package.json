@@ -1,0 +1,16 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "remarker": "^1.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "remarker",
+    "build": "remarker build"
+  },
+  "author": "",
+  "license": "ISC"
+}
