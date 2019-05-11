@@ -4,12 +4,28 @@
     --color-white: #ffffff;
     --color-dark: #262626;
     --color-yellow: #faca33;
+    
+    --gradient-one: #845EC2;
+    --gradient-two: #FF6F91;
+    --gradient-three: #FF9671;
+    --gradient-four: #F9F871;
 }
 
 .remark-container {
     background: var(--color-white);
     color: var(--color-dark);
     font-family: 'Poppins', sans-serif;
+}
+
+.gradient {
+    background: linear-gradient(to left top,
+                var(--gradient-one),
+                var(--gradient-two),
+                var(--gradient-three),
+                var(--gradient-four));
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    color: var(--color-white);
 }
 
 .remark-slide-scaler {
@@ -25,3 +41,8 @@ a {
     color: var(--color-white) !important;
 }
 
+@keyframes Gradient {
+    0%   { background-position: 0% 50%   }
+    50%  { background-position: 100% 50% }
+    100% { background-position: 0% 50%   }
+}
