@@ -4,6 +4,7 @@ class: center, middle
 
 ---
 
-class: center, middle
+class: center, middle, inverse
 
 ## Template
+
